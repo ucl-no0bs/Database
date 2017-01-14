@@ -34,24 +34,6 @@ CREATE TABLE `snippets` (
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `snippets`
---
-
-INSERT INTO `snippets` (`snippet_id`, `username`, `snippet`, `isPublic`) VALUES
-(1, 'userxyz', 'some text', 0),
-(2, 'userxyz', 'Some public text ! Lorem some ipsum.', 1),
-(3, 'user123', 'Some other nice public stuff ! My cool nice paragraph.', 1),
-(4, 'user123', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.', 0),
-(5, 'john', 'some snippet', 0),
-(6, 'johndoe', 'some snippet', 0),
-(7, 'akselcc', 'some text here', 0),
-(8, 'user', 'My first snippet !', 0),
-(9, 'user', 'another public text for fun !', 1),
-(10, 'user', 'some text, will we see the redirection ??', 0);
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `users`
 --
 
@@ -61,21 +43,6 @@ CREATE TABLE `users` (
   `password` text NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'user123', 'somepw'),
-(2, 'userxyz', 'passwordscreeeet'),
-(3, 'johndoe', 'password'),
-(4, 'zcababc', 'secretpassword'),
-(5, 'akselcakmak@gmail.com', 'sf'),
-(6, 'hj', 'vbnrth'),
-(7, 'akselc', 'pw'),
-(8, 'akselcc', 'password'),
-(9, 'user', 'pw'),
-(10, 'aks', 'secret');
 
 --
 -- Indexes for dumped tables
